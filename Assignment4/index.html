@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+    <h1>Basic Details Form</h1>
+        <form id="personalDetails">
+            <label for="fname">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="fname" name="name"><br><br>
+            
+            <label for="emailaddress">Email:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" id="emailaddress" name="email"><br><br>
+            
+            <label for="currentplace">Place:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="currentplace" name="place"><br><br>
+            
+            <input type="submit" value="Submit" class="submitbutton2">
+            </form>
+        <div id="redDiv">
+            <div class="details">
+                <p>Name : Anusree</p>
+                <p>Age : 23</p>
+                <p>Place : Calicut</p>
+            </div>
+        </div> 
+        <button id="hideButton">Hide Div</button>   
+        <button id="colorchangebutton">Color change</button>
+        <button id="showdata">Show details</button><br>
+        <select id="numberSelect" onchange="checkSelection()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <div id="message"></div>
+        <div class="buttonDiv">
+            <p class="text"></p>
+        </div>
+        <form id="titleForm">
+        <div id="output"></div>
+        <label for="pageTitle">Enter new tab title (up to 50 characters):</label>
+        <input type="text" id="pageTitle">
+        <button type="submit">Change Title</button>
+        </form>
+        <script src="js/script.js"></script>
+</body>
+</html>

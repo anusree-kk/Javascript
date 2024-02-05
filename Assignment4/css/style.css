@@ -1,0 +1,21 @@
+#redDiv {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: block; 
+    margin: 20px;
+}
+#errorMessage{
+    color: red;
+    display: none;
+}
+button{
+    border: 2px sloid brown;
+    margin: 10px;
+}
+#message{
+    display: none;
+}
+.details{
+    display: none;
+}
